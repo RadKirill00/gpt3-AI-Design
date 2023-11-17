@@ -1,3 +1,140 @@
 body {
   background: #040C18;
 }
+.container {
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container__header {
+  margin-left: 150px;
+  margin-right: 150px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 55px;
+}
+.header__logo {
+  margin-right: 200px;
+  margin-top: 6.5px;
+}
+.logo__img {
+}
+.header__nav {
+  margin-left: -250px;
+
+}
+.nav__ul {
+  display: flex;
+  gap: 60px;
+  font-size: 18px;
+}
+.nav__li {
+}
+.li__link {
+  color: #ffffff;
+}
+.li__link:hover {
+  color: #002853;
+}
+.li__link:active {
+  color: #ffffff;
+}
+.header__sign {
+  margin-top: 4.5px;
+}
+.sign__1 {
+  margin-right: 15px;
+  color: #ffffff;
+  font-size: 18px;  
+}
+.sign__1:hover {
+  color: #002853;
+}
+.sign__1:active {
+  color: #ffffff;
+}
+.sign__2 {
+  border: 1px solid #FF4820;
+  padding: 15px 45px 15px 45px;
+  border-radius: 10px;
+  background: #FF4820;
+  color: #ffffff;
+  font-size: 18px;
+}
+.sign__2:hover {
+  color: #002853;
+}
+.sign__2:active {
+  color: #ffffff;
+}
+.container__main-1 {
+  display: flex;
+  justify-content: space-between;
+}
+.main__text {
+  padding-left: 150px;
+  padding-top: 100px;
+}
+.text__tittle {
+  width: 600px;
+  font-size: 50px;
+  background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+}
+.tittle__text {
+  font-weight: bold;
+}
+.text__description {
+  width: 540px;
+height: 227px;
+top: 474px;
+left: 138px;
+font-size: 20px;
+color: #81AFDD;
+padding-top: 33px;
+
+}
+.main__email {
+}
+.email__input {
+  background: #052D56;
+  padding: 20px 150px 15.5px 45px;
+  border-radius: 5px 0 0 5px;
+}
+.email__link {
+  border: 1px solid #FF4820;
+  padding: 16px 45px 14px 45px;
+  border-radius: 0 5px 5px 0;
+  background: #FF4820;
+  color: #ffffff;
+  font-size: 18px;
+  margin-left: -6px;
+}
+.main__img {
+}
+.img {
+  width:750px ;
+}
+.group__img {
+  width: 180px;
+  
+}
+.group {
+  display: flex;
+  margin-top: 40px;
+  gap: 10px;
+}
+.group__text {
+  font-size: 10px;
+  margin-top: 12px;
+}
+.compa {
+  width: 600px;
+}
+.companies {
+  padding-top: 100px;
+  padding-bottom: 80px;
+  text-align: center;
+}
